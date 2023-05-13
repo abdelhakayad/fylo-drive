@@ -1,4 +1,4 @@
-import {featureCollab,featureFile,featurePc,featureSecurity,iconEmail,iconPhone,profile1,profile2,profile3,facebook,instagram,twitter, } from '../assets'
+import {featureCollab,featureFile,featurePc,featureSecurity,iconEmail,iconPhone,profile1,profile2,profile3,facebook,instagram,twitter } from '../assets'
 
 export const navLinks = [
     {
