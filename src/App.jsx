@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className=' bg-main w-full overflow-hidden '>
-      <div className={`bg-intro ${styles.flexCenter} ${styles.paddingX}`}>
+      <div className={`${styles.flexCenter} bg-intro  ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}> 
         <Navbar/>
         <Hero/>
