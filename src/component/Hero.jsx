@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <header className={`${styles.flexCenter} w-full flex-col`}>
       <img src={heroPic} alt="hero" className='w-[50%] h-[50%] object-contain' />
-      <div className=" w-[100vw] h-[80vh] bg-[url('./assets/bg-desk.svg')]  bg-no-repeat bg-bottom bg-contain  ">
+      <div className=" w-[100vw] xl:h-[30vh] h-[80vh] bg-[url('./assets/bg-desk.svg')]  bg-no-repeat bg-bottom bg-contain  ">
       <div className={` ${styles.paddingY} ${styles.flexCenter}  flex-col text-center `}>   
         <h1 className=' font-raleway  text-white font-bold md:text-[35px] text-[22px] md:w-[50%] w-[58%]'>
           All your files in one secure location, accessible anywhere.

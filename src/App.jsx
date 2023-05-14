@@ -14,7 +14,7 @@ function App() {
         </div>
       </div>
      
-      <div className={`  ${styles.boxWidth}`}> 
+      <div> 
            
            <Features/>
            <Works/>

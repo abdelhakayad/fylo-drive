@@ -5,7 +5,7 @@ import '../index.css'
 const Features = () => {
   return (
     <section className={`bg-main  ${styles.flexCenter}  flex-col`}>
-      
+     <div>
       <div className='grid md:grid-cols-2 grid-cols-1 md:grid-rows-2 grid-rows-4 gap-4 '>
         
 
@@ -20,6 +20,7 @@ const Features = () => {
           ) 
         }
        
+        </div> 
       </div>
     </section>
   )
