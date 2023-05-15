@@ -6,7 +6,7 @@ import { feedBack } from '../constant'
 const Feedback = () => {
   return (
     <section className={`bg-main pt-[60px] ${styles.flexCenter} flex md:flex-row flex-col  relative md:ml-10 `}>
-     <img src={bgQuotes} className="absolute md:top-11 top-11 md:left-[35px] xl:left-[15rem] left-[100px] w-[30px] h-[30px] z-0 " /> 
+     <img src={bgQuotes} className="absolute md:top-11 top-11 md:left-[35px] xl:left-[20rem] left-[100px] w-[30px] h-[30px] z-0 " /> 
      
      {
         feedBack.map((fbk)=>(
